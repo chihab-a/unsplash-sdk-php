@@ -26,5 +26,8 @@
 		"psr-4": {
 			"Chihab\\UnsplashSdk\\Api\\Tests\\": "tests/"
 		}
-	}
+	},
+    "scripts": {
+        "test": "phpunit"
+    }
 }

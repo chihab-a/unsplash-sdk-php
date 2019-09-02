@@ -1,0 +1,30 @@
+{
+	"name": "chihab/unsplash",
+	"description": "Simple Unsplash API SDK - PHP",
+	"minimum-stability": "stable",
+	"license": "MIT",
+	"authors": [{
+		"name": "Chihab ASRIH",
+		"email": "chihab.asrih@gmail.com"
+	}],
+	"require": {
+		"php": ">=7.2",
+        "php-di/php-di": "^6.0",
+        "league/oauth2-client": ">=1.0",
+        "ext-json": "*"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "^8",
+		"mockery/mockery": "~0.9"
+	},
+	"autoload": {
+		"psr-4": {
+			"Chihab\\UnsplashSdk\\Api\\": "src/Api"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Chihab\\UnsplashSdk\\Api\\Tests\\": "tests/"
+		}
+	}
+}
